@@ -1,0 +1,11 @@
+git branch
+* master
+PS C:\Projects\dev\aks> git remote set-url origin https://github.com/zagianp/resume.git^C
+PS C:\Projects\dev\aks> git branch -m main master^C                       
+PS C:\Projects\dev\aks> git pull --rebase  origin master^C
+PS C:\Projects\dev\aks> git init^C
+PS C:\Projects\dev\aks> git add .^C
+PS C:\Projects\dev\aks> git commit -m "Learnign AKS learning first push"^C
+PS C:\Projects\dev\aks> git push origin master^C
+PS C:\Projects\dev\aks> git filter-branch -f --index-filter 'git rm --cached -r --ignore-unmatch .terraform/'^C
+PS C:\Projects\dev\aks>
